@@ -1,0 +1,245 @@
+/*=============================
+=            Truck            =
+=============================*/
+.truck {
+  display: flex;
+  align-items: flex-end;
+  position: relative;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.wheel {
+  width: 60px;
+  height: 60px;
+  border: 3px solid #0b2127; /* match background color */
+  border-radius: 50%;
+  background-color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: spin 1s linear infinite;
+}
+
+.spokes {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  grid-template-rows: repeat(2, auto);
+  transform: rotate(45deg);
+  border: 2px solid #fff;
+  border-radius: 50%;
+  padding: 4px;
+}
+
+.spokes > div {
+  width: 8px;
+  height: 8px;
+  margin: 1px;
+  background-color: #fff;
+  border-radius: 50%;
+}
+
+/*----------  Truck Head  ----------*/
+.head {
+  display: flex;
+  align-items: flex-end;
+  position: relative;
+}
+
+.engine {
+  width: 70px;
+  height: 80px;
+  background-color: #fff;
+  clip-path: polygon(0% 20%, 110% 0, 110% 110%, 0 110%);
+}
+
+.cab {
+  width: 90px;
+  height: 150px;
+  background-color: #f65335;
+  clip-path: polygon(0% 20%, 110% 0, 120% 110%, 0 110%);
+}
+
+.cab-extender {
+  width: 30px;
+  height: 165px;
+  background-color: #f65335;
+}
+
+.fuel-tank {
+  width: 70px;
+  height: 26px;
+  background-color: #fff;
+  position: absolute;
+  border: 2px solid #0b2127; /* match background color */
+  border-radius: 10px;
+  bottom: -13px;
+  right: 0;
+}
+
+.front-wheel {
+  position: absolute;
+  bottom: -30px;
+  left: 35px;
+}
+
+/*----------  Truck Body  ----------*/
+.body {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.wheels {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: -10px;
+}
+
+.kingpin {
+  width: 15px;
+  height: 20px;
+  background-color: #fff;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -100%);
+}
+
+.connector {
+  width: 160px;
+  height: 20px;
+  background-color: #fff;
+  margin-bottom: 6px;
+  position: relative;
+}
+
+.trailer {
+  position: relative;
+  z-index: 1;
+}
+
+.cargo-container {
+  width: 450px;
+  height: 160px;
+  background-color: #fff;
+  margin: 0 0 10px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.trailer-wheels {
+  width: 160px;
+  height: 20px;
+  background-color: #fff;
+  position: absolute;
+  right: 40px;
+  bottom: 0;
+  transform: translateY(100%);
+  z-index: -1;
+}
+
+/*----------  Truck Wind  ----------*/
+@keyframes wind {
+  0% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(300%);
+    opacity: 0;
+  }
+}
+
+.wind {
+  position: absolute;
+  right: -50px;
+  height: 100%;
+  z-index: -1;
+}
+
+.wind > div {
+  position: absolute;
+  background: #fff;
+  border-radius: 10px;
+  height: 10px;
+}
+
+.wind > div:nth-child(1) {
+  width: 70px;
+  right: 0px;
+  top: 30px;
+  animation: wind 1s -1s linear infinite;
+}
+
+.wind > div:nth-child(2) {
+  width: 100px;
+  right: 40px;
+  top: 60px;
+  animation: wind 1s -2s linear infinite;
+}
+
+.wind > div:nth-child(3) {
+  width: 50px;
+  right: 0;
+  top: 5px;
+  animation: wind 1s -1s linear infinite;
+}
+
+.wind > div:nth-child(4) {
+  width: 60px;
+  right: 100px;
+  top: 100px;
+  animation: wind 1s 1s linear infinite;
+}
+
+.wind > div:nth-child(5) {
+  width: 80px;
+  right: 30px;
+  top: 145px;
+  animation: wind 1s -1.5s linear infinite;
+}
+/*=====  End of Truck  ======*/
+
+/*============================
+=            Text            =
+============================*/
+@keyframes shimmer {
+  0% {
+    background-position: 100% 50%;
+  }
+  30% {
+    background-position: 0% 50%;
+  }
+}
+
+.text {
+  width: 650px;
+  padding: 5px 0;
+  margin-top: 30px;
+  background-color: #f65335;
+  color: #fff;
+  font-size: 30px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  animation: shimmer 2s linear infinite;
+  background-image: linear-gradient(
+    -70deg,
+    rgba(255, 255, 255, 0) 46%,
+    rgba(255, 255, 255, 0.8) 50%,
+    rgba(255, 255, 255, 0.8) 52%,
+    rgba(255, 255, 255, 0) 56%
+  );
+  background-size: 400% 100%;
+}
+
+/*=====  End of Text  ======*/
