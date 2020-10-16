@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/convoy-truck-loader/static/css/main.31417400.chunk.css",
+    "main.js": "/convoy-truck-loader/static/js/main.1c6db187.chunk.js",
+    "main.js.map": "/convoy-truck-loader/static/js/main.1c6db187.chunk.js.map",
+    "runtime-main.js": "/convoy-truck-loader/static/js/runtime-main.1905f2dd.js",
+    "runtime-main.js.map": "/convoy-truck-loader/static/js/runtime-main.1905f2dd.js.map",
+    "static/css/2.c4d0fb58.chunk.css": "/convoy-truck-loader/static/css/2.c4d0fb58.chunk.css",
+    "static/js/2.1bfda624.chunk.js": "/convoy-truck-loader/static/js/2.1bfda624.chunk.js",
+    "static/js/2.1bfda624.chunk.js.map": "/convoy-truck-loader/static/js/2.1bfda624.chunk.js.map",
+    "index.html": "/convoy-truck-loader/index.html",
+    "precache-manifest.1e4111d3c68d27b9d4c9e80fe75428a3.js": "/convoy-truck-loader/precache-manifest.1e4111d3c68d27b9d4c9e80fe75428a3.js",
+    "service-worker.js": "/convoy-truck-loader/service-worker.js",
+    "static/css/2.c4d0fb58.chunk.css.map": "/convoy-truck-loader/static/css/2.c4d0fb58.chunk.css.map",
+    "static/css/main.31417400.chunk.css.map": "/convoy-truck-loader/static/css/main.31417400.chunk.css.map",
+    "static/js/2.1bfda624.chunk.js.LICENSE.txt": "/convoy-truck-loader/static/js/2.1bfda624.chunk.js.LICENSE.txt",
+    "static/media/convoy-logo.svg": "/convoy-truck-loader/static/media/convoy-logo.3ad85332.svg",
+    "static/media/jake-truck-loader-1.gif": "/convoy-truck-loader/static/media/jake-truck-loader-1.040463a6.gif",
+    "static/media/jake-truck-loader-2.gif": "/convoy-truck-loader/static/media/jake-truck-loader-2.d18815c0.gif",
+    "static/media/device-mockups.min.css": "/convoy-truck-loader/static/media/portrait_white.f7b169ae.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1905f2dd.js",
+    "static/css/2.c4d0fb58.chunk.css",
+    "static/js/2.1bfda624.chunk.js",
+    "static/css/main.31417400.chunk.css",
+    "static/js/main.1c6db187.chunk.js"
+  ]
+}
