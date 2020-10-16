@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "997af95cbe4dfd120b9761475e89e2e5",
+    "revision": "cff73f19fb39a74ba80df6f43594078d",
     "url": "/convoy-truck-loader/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/convoy-truck-loader/static/css/2.c4d0fb58.chunk.css"
   },
   {
-    "revision": "35bcdedbae168e38174f",
-    "url": "/convoy-truck-loader/static/css/main.4b78439c.chunk.css"
+    "revision": "01c3a4bf50188ed5fe51",
+    "url": "/convoy-truck-loader/static/css/main.11a3575e.chunk.css"
   },
   {
     "revision": "34295b2b900aca6d53a3",
@@ -20,7 +20,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/convoy-truck-loader/static/js/2.1bfda624.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "35bcdedbae168e38174f",
+    "revision": "01c3a4bf50188ed5fe51",
     "url": "/convoy-truck-loader/static/js/main.38ba6da9.chunk.js"
   },
   {

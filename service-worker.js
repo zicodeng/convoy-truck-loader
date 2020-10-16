@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/convoy-truck-loader/precache-manifest.70d05637d4769a21a12c9506a7f0a9cd.js"
+  "/convoy-truck-loader/precache-manifest.28ac4ddc038d1471136519ac665d90c8.js"
 );
 
 self.addEventListener('message', (event) => {
